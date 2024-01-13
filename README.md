@@ -2,7 +2,7 @@
 A novel approach to create an AI tool that can achieve two main goals - capable of reasoning more reliably and generate new ideas to solve truly new problems.
 
 
-# Idea: Reasoning, Creativity and Analogy [Work in Progress]
+# Idea: Understanding, Reasoning, Creativity are achieved via Analogy [Work in Progress]
 
 The proposed concept rests on the premise that both reasoning and creativity are forms of analogy finding. Reasoning, particularly evident in mathematical truths, involves applying known rules to new entities.
 
