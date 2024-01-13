@@ -10,6 +10,6 @@ Creativity, on the other hand, can be viewed as analogy finding with relaxed con
 
 Both reasoning and creativity uses analogy as the underlying common process to create and validate new and existing ideas. Finding analogy can be translated into a well known problem in Graph Theory - called Graph Isomorphism. If we map concepts to nodes and relationship among concepts as edges, we can transform a piece of fact or knowledge into a graph. Although this is not a new approach, the idea of using graph isomorphism to detect patterns of reasoning is new. 
 
-Converting text or input training data into graphs will be the first major task for this project. We will also need an effcient algorithm to find isomorphism. 
+Converting text or input training data into graphs will be the first major task for this project. We will also need an effcient algorithm to find isomorphism. These graphs will be represented via set of embedding vectors in a continuous vector space, instead of the traditional discrete nodes and edge based graphs.
 
 
