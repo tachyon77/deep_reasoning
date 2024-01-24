@@ -12,4 +12,15 @@ Both reasoning and creativity uses analogy as the underlying common process to c
 
 Converting text or input training data into graphs will be the first major task for this project. We will also need an effcient algorithm to find isomorphism. These graphs will be represented via set of embedding vectors in a continuous vector space, instead of the traditional discrete nodes and edge based graphs.
 
+# Architecture, Core Algorithm
+
+The system will comprise two principal components: a persistent memory and a set of processes dedicated to editing this memory.
+
+At its core, the memory is structured similarly to a graph. Within this graph, a 'graphlet' is defined as a connected subset comprising specific nodes and edges.
+
+Each graphlet embodies a distinct piece of knowledge. This knowledge might represent either a direct fact about the world or a learned pattern. Interestingly, a single node within this structure has the potential to represent an entire graphlet. Some graphlets serve a unique function: they symbolize relationships between other graphlets by referring to them as nodes. These relational graphlets are instrumental in transforming one graphlet into another, akin to a logical deduction process.
+
+When graphlets can be derived from one another, they collectively form what is known as an 'equivalence set'. This relationship is represented through a directed graph. For instance, if there are two graphlets, A and B, and each can be deduced from the other, we define a 'morph' as the set of changes required to transform one graphlet into the other. In essence, learning logic in this context involves mastering these morph functions.
+
+Reasoning within this system can occur in two primary ways. Firstly, we can map a given graphlet to another through the process of graph isomorphism. Alternatively, a graphlet can be transformed into a new one using one or more of the known morphs.
 
