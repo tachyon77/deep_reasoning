@@ -24,3 +24,7 @@ When graphlets can be derived from one another, they collectively form what is k
 
 Reasoning within this system can occur in two primary ways. Firstly, we can map a given graphlet to another through the process of graph isomorphism. Alternatively, a graphlet can be transformed into a new one using one or more of the known morphs.
 
+Building upon the established framework, the search for new ideas and the proof of mathematical statements will be conducted by beginning with an initial set of graphlets. Known morphs will be applied to these graphlets to discover new ones, and partial or exact isomorphism will be used to explore their equivalence sets. This process resembles a breadth-first search approach, where the set of known truths (graphlets) expands as more possibilities are explored.
+
+Since the representation of these graph objects is grounded in vector space, we can leverage vector similarity measurement functions for approximating the detection of isomorphism. Given that graph isomorphism is potentially a NP-complete (NP-intermediate) problem and computationally demanding, using vector similarity should provide a practical and efficient alternative.
+
